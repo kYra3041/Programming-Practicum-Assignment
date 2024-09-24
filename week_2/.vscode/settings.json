@@ -1,0 +1,10 @@
+{
+    "makefile.makefilePath": "/workspaces/Programming-Practicum-Assignment/week_2/Makefile",
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/workspaces/Programming-Practicum-Assignment/week_2",
+            "binaryPath": "/workspaces/Programming-Practicum-Assignment/week_2/Problem1.exe",
+            "binaryArgs": []
+        }
+    ]
+}
