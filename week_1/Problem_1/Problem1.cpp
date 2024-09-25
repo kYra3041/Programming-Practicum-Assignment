@@ -47,11 +47,11 @@ int run_main(){
 
 int main(int argc, char* argv[]) {
     if (argc > 1 && std::string(argv[1]) == "test") {
-        //do something
+        // Test scenario (if needed)
         return 0;
     }
     else
     {
-        return run_main();
+        return run_main(); // Call the main function
     }
 }
