@@ -1,9 +1,14 @@
 {
-    "makefile.makefilePath": "/workspaces/Programming-Practicum-Assignment/week_1/Problem_1/Makefile",
+    "makefile.makefilePath": "/workspaces/Programming-Practicum-Assignment/week_1/Problem_2/Makefile",
     "makefile.launchConfigurations": [
         {
             "cwd": "/workspaces/Programming-Practicum-Assignment/week_1/Problem_1",
             "binaryPath": "/workspaces/Programming-Practicum-Assignment/week_1/Problem_1/Problem1.exe",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "/workspaces/Programming-Practicum-Assignment/week_1/Problem_2",
+            "binaryPath": "/workspaces/Programming-Practicum-Assignment/week_1/Problem_2/Problem2.exe",
             "binaryArgs": []
         }
     ]
