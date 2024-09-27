@@ -3,7 +3,7 @@
 int main (){
     int n;
     long long sum = 0; //using long long to handle sum
-    std::string explanation = "(Explanation ="
+    std::string explanation = "(Explanation =";
 
     std::cout << "Insert a natural number (n) = "; //ask user for input
     std::cin >> n;
