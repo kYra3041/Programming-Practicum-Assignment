@@ -1,0 +1,14 @@
+1.  Input: 1 to 3
+    Output: 1 2 Fizz
+
+2.  Input: 4 to 6
+    Output: 4 Buzz Fizz
+
+3.  Input: 7 to 9
+    Output: 7 8 Fizz
+
+4.  Input: 10 to 12
+    Output: Buzz 11 Fizz
+
+5.  Input: 13 to 15
+    Output: 13 14 FizzBuzz
