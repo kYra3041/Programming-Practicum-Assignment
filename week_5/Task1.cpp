@@ -38,14 +38,14 @@ int main () {
         }
 
 //finalization
-    std::cout << "Student Data";
+    std::cout << "Student Data" << std::endl;
     for (i=0; i<n; i++) {
         std::cout << theStudent[i].name.FirstName << " ";
-        std::cout << theStudent[i].name.LastName << " ";
-        std::cout << theStudent[i].idNum << " ";
-        std::cout << theStudent[i].GPA << " ";
+        std::cout << theStudent[i].name.LastName << std::endl;
+        std::cout << theStudent[i].idNum << std::endl;
+        std::cout << theStudent[i].GPA << std::endl;
     }
-    std::cout << "Press Enter to continue...";
+    std::cout << "Press Enter to continue.";
     std::cin.ignore();
     std::cin.get();
     
