@@ -1,0 +1,13 @@
+Create a program (by using arrays and structs) which asks the student data (nim,
+UTS values and UAS value) of N inputs (N is determined by the users themselves,
+maximum 50), then calculate the average value of each student.
+For example :
+enter the number of students : 1
+enter the nim : 412
+enter UTS value : 72
+enter UAS value : 74
+------
+nim : 412
+average : 73
+
+
