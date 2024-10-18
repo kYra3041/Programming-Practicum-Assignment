@@ -1,4 +1,18 @@
 #include <iostream>
+#include <string>
+
+//struct declaration 
+struct fullname {
+    std::string FirstName;
+    std::string LastName;
+};
+
+struct StudentRec {
+    fullname Name;
+    std::string idNum;
+    float GPA;
+};
+StudentRec theStudent[10];
 
 int main ()
 {
