@@ -8,12 +8,14 @@ struct fullname {
 };
 
 struct StudentRec {
-    fullname Name;
+    fullname name;
     std::string idNum;
     float GPA;
 };
+//variable declaration and initialization
 StudentRec theStudent[10];
 
+//process
 int main ()
 {
     std::cout << "Enter the number of student : ";
@@ -32,7 +34,8 @@ int main ()
         std::cout << "GPA : ";
         std::cin >> theStudent[i].GPA;
         }
-
+        
+//finalization
     std::cout << "Student Data";
     for (i=0; i<n; i++) {
         std::cout << theStudent[i].name.FirstName;
