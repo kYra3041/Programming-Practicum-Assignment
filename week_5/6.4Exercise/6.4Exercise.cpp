@@ -17,9 +17,7 @@ int main () {
 
     std::cout << "Enter the number of students : ";
     std::cin >> n;
-
-    //input student data
-    for (i=0; i<0; i++) {
+    for (i=0; i<n; i++) {
         std::cout << "Enter the NIM : ";
         std::cin >> student[i].idNum;
 
@@ -35,7 +33,7 @@ int main () {
 
     //display the result to user
     std::cout << "\n";
-    for (i=0; i<0; i++) {
+    for (i=0; i<n; i++) {
         std::cout << "------\n";
         std::cout << "nim : " << student[i].idNum;
         std::cout << "average : " << std::fixed << std::setprecision(2) << student[i].average << "\n";

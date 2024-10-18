@@ -20,7 +20,7 @@ StudentRec theStudent[10];
 int main () {
     int n, i; //declaration for n and i
 
-    std::cout << "Enter the number of student : " << std::endl;
+    std::cout << "Enter the number of student : ";
     std::cin >> n;
     std::cout << "----- Student data -----" << std::endl;
     for (i = 0; i < n; ++i) {
