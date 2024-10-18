@@ -35,7 +35,7 @@ int main () {
     std::cout << "\n";
     for (i=0; i<n; i++) {
         std::cout << "------\n";
-        std::cout << "nim : " << student[i].idNum;
+        std::cout << "nim : " << student[i].idNum << std::endl;
         std::cout << "average : " << std::fixed << std::setprecision(2) << student[i].average << "\n";
     }
 

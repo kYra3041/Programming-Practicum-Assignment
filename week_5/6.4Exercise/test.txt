@@ -10,4 +10,34 @@ enter UAS value : 74
 nim : 412
 average : 73
 
+Test runs :
+Enter the number of students : 4
+Enter the NIM : 532751
+Enter UTS value : 76
+Enter UAS value : 80
+
+Enter the NIM : 367589
+Enter UTS value : 80
+Enter UAS value : 72
+
+Enter the NIM : 562086
+Enter UTS value : 65
+Enter UAS value : 45
+
+Enter the NIM : 820491
+Enter UTS value : 40
+Enter UAS value : 90
+
+------
+nim : 532751
+average : 78.00
+------
+nim : 367589
+average : 76.00
+------
+nim : 562086
+average : 55.00
+------
+nim : 820491
+average : 65.00
 
