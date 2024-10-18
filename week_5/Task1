@@ -12,16 +12,18 @@ struct StudentRec {
     std::string idNum;
     float GPA;
 };
+
 //variable declaration and initialization
 StudentRec theStudent[10];
 
 //process
-int main ()
-{
+int main () {
+    int n, i; //declaration for n and i
+
     std::cout << "Enter the number of student : ";
     std::cin >> n;
     std::cout << "Student data : " << std::endl;
-    for (i=0; i < n; ++i) {
+    for (i = 0; i < n; ++i) {
         std::cout << "First Name : ";
         std::cin >> theStudent[i].name.FirstName;
 
@@ -34,15 +36,18 @@ int main ()
         std::cout << "GPA : ";
         std::cin >> theStudent[i].GPA;
         }
-        
+
 //finalization
     std::cout << "Student Data";
     for (i=0; i<n; i++) {
-        std::cout << theStudent[i].name.FirstName;
-        std::cout << theStudent[i].name.LastName;
-        std::cout << theStudent[i].idNum;
-        std::cout << theStudent[i].GPA;
+        std::cout << theStudent[i].name.FirstName << " ";
+        std::cout << theStudent[i].name.LastName << " ";
+        std::cout << theStudent[i].idNum << " ";
+        std::cout << theStudent[i].GPA << " ";
     }
-    system("Pause");
+    std::cout << "Press Enter to continue...";
+    std::cin.ignore();
+    std::cin.get();
+    
     return 0;
 }
