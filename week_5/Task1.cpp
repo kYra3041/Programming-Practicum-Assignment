@@ -20,9 +20,9 @@ StudentRec theStudent[10];
 int main () {
     int n, i; //declaration for n and i
 
-    std::cout << "Enter the number of student : ";
+    std::cout << "Enter the number of student : " << std::endl;
     std::cin >> n;
-    std::cout << "Student data : " << std::endl;
+    std::cout << "----- Student data -----" << std::endl;
     for (i = 0; i < n; ++i) {
         std::cout << "First Name : ";
         std::cin >> theStudent[i].name.FirstName;
