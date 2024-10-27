@@ -18,8 +18,25 @@ int main() {
     std::cin >> choice;
 
     //calculation based on choice
+    if (choice == '1') {
+        std::cout << numA << " + " << numB << " = " << add(numA,numB) << std::endl;
+    }
+    else if (choice == '2') {
+        std::cout << numA << " - " << numB << " = " << subtract(numA,numB) << std::endl;
+    }
+    else {
+        std::cout << "Invalid operation, make sure it is typed in correctly" << std::endl;
+    }
 
+    // Function to add two numbers
+double add(numA, numB) {
+    return a + b;
+}
 
+// Function to subtract two numbers
+double subtract(numA, numB {
+    return a - b;
+}
 
     return 0;
 }
