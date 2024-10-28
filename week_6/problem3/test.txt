@@ -1,3 +1,22 @@
 3. Write a program with recurrence function to calculate GCD (Greater Common
 Division)!
 
+Test Case 1: Valid Input with Common Factor
+Input: num1 = 48, num2 = 18
+Expected Output: GCD = 6
+
+Test Case 2: Valid Input with Large Numbers
+Input: num1 = 270, num2 = 192
+Expected Output: GCD = 6
+
+Test Case 3: Valid Input with Prime Numbers
+Input: num1 = 17, num2 = 13
+Expected Output: GCD = 1
+
+Test Case 4: Valid Input with One Number as 1
+Input: num1 = 1, num2 = 25
+Expected Output: GCD = 1
+
+Test Case 5: Invalid Input (Negative Number)
+Input: num1 = -5, num2 = 15
+Expected Output: "please enter positive integers only :D"
