@@ -1,27 +1,27 @@
 # Target to compile the object file
-problem2: problem2.o
-	g++ problem2.o -o problem2.exe
+code: code.o
+	g++ code.o -o code.exe
 
 # Target to compile the C++ program
-problem2.o: problem2.cpp
-	g++ -c problem2.cpp -o problem2.o
+code.o: code.cpp
+	g++ -c code.cpp -o code.o
 
 # Target to run the program (interactively)
-run: problem2
-	./problem2.exe
+run: code
+	./code.exe
 
 # Target to compile the object Test file
-problem2Test: problem2Test.o
-	g++ problem2Test.o -o problem2Test.exe
+codeTest: codeTest.o
+	g++ codeTest.o -o codeTest.exe
 
 # Target to compile the C++ Test program
-problem2Test.o: problem2Test.cpp
-	g++ -c problem2Test.cpp -o problem2Test.o
+codeTest.o: codeTest.cpp
+	g++ -c codeTest.cpp -o codeTest.o
 
 # Target to run the Test program
-test: problem2Test
-	./problem2Test.exe
+test: codeTest
+	./codeTest.exe
 
 # Target to clean up compiled files
 clean:
-	rm -f problem2.o problem2Test.o problem2.exe problem2Test.exe
+	rm -f code.o codeTest.o code.exe codeTest.exe
