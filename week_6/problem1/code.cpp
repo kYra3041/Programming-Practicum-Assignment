@@ -4,6 +4,16 @@
 double add (double numA,double numB);
 double subtract (double numA,double numB);
 
+// Function to add two numbers
+double add (double numA, double numB) {
+    return numA + numB;
+}
+
+// Function to subtract two numbers
+double subtract (double numA, double numB) {
+    return numA - numB;
+}
+
 int main() {
     double numA, numB;
     int choice;
@@ -18,25 +28,15 @@ int main() {
     std::cin >> choice;
 
     //calculation based on choice
-    if (choice == '1') {
+    if (choice == 1) {
         std::cout << numA << " + " << numB << " = " << add(numA,numB) << std::endl;
     }
-    else if (choice == '2') {
+    else if (choice == 2) {
         std::cout << numA << " - " << numB << " = " << subtract(numA,numB) << std::endl;
     }
     else {
         std::cout << "Invalid operation, make sure it is typed in correctly" << std::endl;
     }
-
-    // Function to add two numbers
-double add(numA, numB) {
-    return a + b;
-}
-
-// Function to subtract two numbers
-double subtract(numA, numB {
-    return a - b;
-}
 
     return 0;
 }
