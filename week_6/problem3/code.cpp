@@ -15,7 +15,8 @@ int main () {
     //input validation
 
     if (num1 <= 0 || num2 <=0) {
-        
+        std::cout << "please enter positive integers only :3" << std::endl;
+        return 1;
     }
 
     return 0;
