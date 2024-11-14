@@ -1,0 +1,88 @@
+Note the following student data.
+______________________________________________________
+| NISN      | Name                          | Value   |
+______________________________________________________
+ 9960312699 | Handi Ramadhan                | 90      |
+ 9963959682 | Rio Alfandra                  | 55      |
+ 9950310962 | Ronaldo Valentino Uneputty    | 80      |
+ 9970272750 | Achmad Yaumil Fadjri R.       | 60      |
+ 9970293945 | Alivia Rahma Pramesti         | 70      |
+ 9952382180 | Ari Lutfianto                 | 65      |
+ 9965653989 | Arief Budiman                 | 60      |
+-------------------------------------------------------
+
+1. Sort the data in descending by:
+- NISN
+- Value
+using insertion sort, selection sort and bubbles sort.
+Input data :
+Student students[] = {
+        {"9960312699", "Handi Ramadhan", 90},
+        {"9963959682", "Rio Alfandra", 55},
+        {"9950310962", "Ronaldo Valentino Uneputty", 80},
+        {"9970272750", "Achmad Yaumil Fadjri R.", 60},
+        {"9970293945", "Alivia Rahma Pramesti", 70},
+        {"9952382180", "Ari Lutfianto", 65},
+        {"9965653989", "Arief Budiman", 60},
+};
+
+Expected Output :
+Sorting by NISN (Descending):
+
+Insertion Sort: 
+9970293945  Alivia Rahma Pramesti  70
+9970272750  Achmad Yaumil Fadjri R.  60
+9965653989  Arief Budiman  60
+9963959682  Rio Alfandra  55
+9960312699  Handi Ramadhan  90
+9952382180  Ari Lutfianto  65
+9950310962  Ronaldo Valentino Uneputty  80
+
+Selection Sort:
+9970293945  Alivia Rahma Pramesti  70
+9970272750  Achmad Yaumil Fadjri R.  60
+9965653989  Arief Budiman  60
+9963959682  Rio Alfandra  55
+9960312699  Handi Ramadhan  90
+9952382180  Ari Lutfianto  65
+9950310962  Ronaldo Valentino Uneputty  80
+
+Buble Sort:
+9970293945  Alivia Rahma Pramesti  70
+9970272750  Achmad Yaumil Fadjri R.  60
+9965653989  Arief Budiman  60
+9963959682  Rio Alfandra  55
+9960312699  Handi Ramadhan  90
+9952382180  Ari Lutfianto  65
+9950310962  Ronaldo Valentino Uneputty  80
+
+
+
+Sorting by Value (Descending):
+
+Insertion Sort: 
+9960312699  Handi Ramadhan  90
+9950310962  Ronaldo Valentino Uneputty  80
+9970293945  Alivia Rahma Pramesti  70
+9952382180  Ari Lutfianto  65
+9970272750  Achmad Yaumil Fadjri R.  60
+9965653989  Arief Budiman  60
+9963959682  Rio Alfandra  55
+
+Selection Sort: 
+9960312699  Handi Ramadhan  90
+9950310962  Ronaldo Valentino Uneputty  80
+9970293945  Alivia Rahma Pramesti  70
+9952382180  Ari Lutfianto  65
+9970272750  Achmad Yaumil Fadjri R.  60
+9965653989  Arief Budiman  60
+9963959682  Rio Alfandra  55
+
+Bubble Sort:
+9960312699  Handi Ramadhan  90
+9950310962  Ronaldo Valentino Uneputty  80
+9970293945  Alivia Rahma Pramesti  70
+9952382180  Ari Lutfianto  65
+9970272750  Achmad Yaumil Fadjri R.  60
+9965653989  Arief Budiman  60
+9963959682  Rio Alfandra  55
