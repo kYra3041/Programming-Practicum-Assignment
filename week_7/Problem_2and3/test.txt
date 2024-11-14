@@ -1,0 +1,61 @@
+Note the following student data.
+______________________________________________________
+| NISN      | Name                          | Value   |
+______________________________________________________
+ 9960312699 | Handi Ramadhan                | 90      |
+ 9963959682 | Rio Alfandra                  | 55      |
+ 9950310962 | Ronaldo Valentino Uneputty    | 80      |
+ 9970272750 | Achmad Yaumil Fadjri R.       | 60      |
+ 9970293945 | Alivia Rahma Pramesti         | 70      |
+ 9952382180 | Ari Lutfianto                 | 65      |
+ 9965653989 | Arief Budiman                 | 60      |
+-------------------------------------------------------
+
+2. Look for data that has NISN 9950310962, then show the value using the binary search.
+3. Change the name of the data that has a value of 60 to Joko. Take advantage of sequential 
+search methods.
+
+Expected Output :
+Number 2: Binary Search for NISN 9950310962
+Original array:
+9960312699 Handi Ramadhan 90
+9963959682 Rio Alfandra 55
+9950310962 Ronaldo Valentino Uneputty 80
+9970272750 Achmad Yaumil Fadjri R. 60
+9970293945 Alivia Rahma Pramesti 70
+9952382180 Ari Lutfianto 65
+9965653989 Arief Budiman 60
+
+Sorted array by NISN:
+9950310962 Ronaldo Valentino Uneputty 80
+9952382180 Ari Lutfianto 65
+9960312699 Handi Ramadhan 90
+9963959682 Rio Alfandra 55
+9965653989 Arief Budiman 60
+9970272750 Achmad Yaumil Fadjri R. 60
+9970293945 Alivia Rahma Pramesti 70
+
+Found student with NISN 9950310962:
+9950310962 Ronaldo Valentino Uneputty 80
+
+-------------------------------------------------------------
+Number 3: Update names where value is 60
+Before update:
+9950310962 Ronaldo Valentino Uneputty 80
+9952382180 Ari Lutfianto 65
+9960312699 Handi Ramadhan 90
+9963959682 Rio Alfandra 55
+9965653989 Arief Budiman 60
+9970272750 Achmad Yaumil Fadjri R. 60
+9970293945 Alivia Rahma Pramesti 70
+
+Updated 2 record(s) with value 60 to name 'Joko'
+
+After update:
+9950310962 Ronaldo Valentino Uneputty 80
+9952382180 Ari Lutfianto 65
+9960312699 Handi Ramadhan 90
+9963959682 Rio Alfandra 55
+9965653989 Joko 60
+9970272750 Joko 60
+9970293945 Alivia Rahma Pramesti 70
