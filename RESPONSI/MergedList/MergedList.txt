@@ -1,0 +1,33 @@
+Question: Write a program to merge two sorted lists into one sorted list.
+
+Pseudocode:
+1. Start
+2. Input two sorted lists
+3. Initialize an empty merged list
+4. While both lists are not empty:
+- Compare the first elements of both lists
+- Append the smaller element to the merged list
+- Remove the appended element from its original list
+5. Append any remaining elements from the non-empty list to the merged list
+6. Output merged list
+7. End
+
+Input : 
+4 value
+number 1: 15
+number 2: 18
+number 3: 30
+number 4: 24
+
+5 value
+number 1: 28
+number 2: 24
+number 3: 35
+number 4: 11
+number 5: 17
+
+
+Expected Output : 
+Merged sorted list is: 
+15 18 28 24 30 24 35 11 17
+
