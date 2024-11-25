@@ -1,0 +1,11 @@
+Question: Write a program that calculates the area of a circle given its radius.
+Pseudocode:
+1. Start
+2. Input radius
+3. Area = pi * radius * radius
+4. Output Area
+5. End
+
+Input : 6
+
+Expected output : 113.097 
